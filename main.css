@@ -1,0 +1,101 @@
+
+::selection {
+    background: hsla(256, 100%, 73%, 0.1);
+    background: #9872ff;
+}
+
+body {
+    background: black;
+}
+
+.bg {
+    background: white;
+}
+
+.header-icon {
+    border: 1px solid black;
+    border-radius: 200px;
+    background: red;
+    margin-left: 50px;
+    margin-top: 2em;
+    /*margin-bottom: 100%;*/
+}
+
+.header-name {
+    text-align: center;
+    line-height: 1em;
+    margin: .8em 0 1em 0;
+    /*font-size: 1em;*/
+    font-weight: 100;
+}
+
+.header-nav ul {
+    margin-left: 10%;
+}
+
+.header-nav a, .header-nav li {
+    color: red;
+    text-decoration: underline;
+    list-style: none;
+    /*width: 100px;*/
+    padding: .5em;
+    max-width: 200px;
+    display: inline-flex;
+}
+
+.header-nav input {
+    border: solid 1px red;
+    /*margin-left: 11em;*/
+    margin-bottom: 1em;
+}
+
+
+
+.header-nav a:hover, .header-nav li:hover {
+    background: black;
+    cursor: pointer;
+}
+
+.main-article {
+    padding: 1em;
+    margin: 1em;
+    margin-bottom: 1.5em;
+}
+
+.main-article button {
+    margin-top: 1em;
+    padding: 4px 9px;
+    border: solid 1px red;
+    background: white;
+}
+
+.main-article button:hover {
+    color: red;
+    border-color: black;
+}
+
+.main-canvas {
+    height: 300px;
+    background: red;
+    /*margin-bottom: 100%;*/
+}
+
+footer {
+    margin-top: 1em;
+    /*padding: .2em;*/
+}
+
+.sort-by li, .sort-by a {
+    font: 11px black sans-serif;
+    color: black;
+    list-style: none;
+    text-align: left;
+    margin-bottom: .5em;
+    display: inline-block;
+    
+}
+
+.sort-by {
+    padding-left: 0;
+    /*display: inlin;*/
+}

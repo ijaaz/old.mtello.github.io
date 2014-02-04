@@ -1,3 +1,3 @@
-require(["arias",], function () {
+require(["helpers/jquery", "arias", "scroll"], function () {
     
 });
